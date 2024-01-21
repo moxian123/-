@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- 这是给搜索引擎用的标签-->
+    <meta name="keywords" content="百度描述的内容"/>
+    <meta name="desription" content="学习前端，跟我学" />
+
+    <title>中文</title>
+
+    <link rel="icon" href="./nopic1.png">
+    <!--
+        rel="表示文档和与被连接文档之间的关系"
+        type="被连接文档的类型" 这个可以省略，浏览器会自动识别
+        href="被连接文档的地址"
+    -->
+
+    <!--link 标签连接css样式-->
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <!-- 直接使用style-->
+
+    <style>
+        body{
+            background-color: wheat;
+        }
+        h1{
+        color: red;
+        }
+    </style>
+
+    <!--放置js代码-->
+    <script>
+        // 写到页面的内容
+        document.write("aaaa 来自js的")
+
+        // 弹框
+        alert("sss")
+    </script>
 </head>
-<body bgcolor="white" text="blue">
-    <h1>hello world</h1>
+<body>
+    <h1>啊啊啊</h1>
 </body>
 </html>
